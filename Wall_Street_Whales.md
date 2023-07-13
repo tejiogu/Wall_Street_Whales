@@ -107,7 +107,4 @@ custom_daily_returns = custom_portfolio.pct_change().dropna().dot(weights)
 # Combine custom portfolio returns with original DataFrame
 combined_df = pd.concat([combined_df, custom_daily_returns], axis="columns", join="inner")
 combined_df.rename(columns={0: 'Custom Portfolio'}, inplace=True)
-
-# Re-run the performance and risk analysis with your portfolio to see how it compares to the others
-
-```
+'''
