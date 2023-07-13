@@ -1,4 +1,4 @@
-```python
+#This is the 'custom portfolio' that was titled 'Lucrative_Stocks' in the code
 # Read the data from AAPL, AMZN, and GOOG
 
 aapl_data = pd.read_csv("aapl_historical.csv", index_col="Date", parse_dates=True)
